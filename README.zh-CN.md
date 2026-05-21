@@ -2,8 +2,53 @@
 
 <h1>Image2 Promptick</h1>
 
-> [!NOTE]
-> Preview images below are sourced from [Open Design](https://github.com/nexu-io/open-design) (Apache 2.0). Click any image to view full size. Install the extension to browse all 207 templates including 162 more from wuyoscar/GPT-Image2-Skill.
+<p>一个 Chrome 侧边栏插件，集成 <strong>207 个精选 AI 图片提示词模板</strong> 与 <strong>中英双语翻译编辑器</strong>。</p>
+
+<p>
+  <a href="README.md">English</a> | <b>中文</b>
+</p>
+
+<img src="https://img.shields.io/badge/Chrome-Extension-blue?logo=googlechrome" alt="Chrome 扩展">
+<img src="https://img.shields.io/badge/Manifest-V3-green" alt="Manifest V3">
+<img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT License">
+
+</div>
+
+## 概述
+
+**Image2 Promptick** 是一个 Chrome 侧边栏插件，聚合了来自开源画廊（[Open Design](https://github.com/nexu-io/open-design) + [GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill)）的 **207 个精选 AI 图片生成提示词模板**，并提供**中英双语翻译编辑器**——浏览、翻译、编辑、同步，无需离开当前页面。
+
+## 功能
+
+- **浏览与筛选** — 207 个模板，30+ 分类，支持搜索和分类筛选
+- **一键翻译** — 调用自有 LLM 将英文提示词翻译为中文
+- **双向同步** — 修改中文后，LLM 自动更新英文，反之亦然
+- **独立复制** — 中英文两侧均有复制按钮
+- **大图预览** — 灯箱弹窗查看参考图，不跳新窗口
+- **BYOK** — 兼容任意 OpenAI 格式 API（GPT、DeepSeek、火山引擎等）
+
+## 安装
+
+1. 克隆或下载本仓库。
+2. 打开 Chrome，进入 `chrome://extensions/`。
+3. 开启右上角 **开发者模式**。
+4. 点击 **加载已解压的扩展程序**，选择本项目文件夹。
+5. 点击工具栏插件图标打开侧边栏。
+6. 点击 ⚙️ 设置 LLM API 后即可使用。
+
+## 使用方法
+
+1. 侧边栏滚动浏览模板卡片，使用搜索框和分类下拉筛选。
+2. 点击任意模板卡片进入编辑视图。
+3. 点击 **🌐 翻译为中文** —— LLM 自动翻译。
+4. 修改中文内容。
+5. 点击 **🔄 同步英文** —— LLM 根据新中文重写英文提示词。
+6. 点击 **📋 复制** 复制任意一侧。
+7. 点击 **📷 查看完整图** 弹出灯箱大图预览。
+
+## 模板预览
+
+> 以下预览图来自 [Open Design](https://github.com/nexu-io/open-design) (Apache 2.0)。点击图片查看完整尺寸。
 
 | | | | |
 |---|---|---|---|
@@ -18,21 +63,15 @@
 | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/social-media-post-sensational-girl-dance-storyboard-8-shots.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/social-media-post-sensational-girl-dance-storyboard-8-shots.jpg" width="100%"></a><br><sub>Social Media Post - Sensational Girl Dance Storyboard (8 Shots)</sub> | <a href="https://cms-assets.youmind.com/media/1777453174956_qapj6l_HGy7GDlbYAAR6Np.jpg"><img src="https://cms-assets.youmind.com/media/1777453174956_qapj6l_HGy7GDlbYAAR6Np.jpg" width="100%"></a><br><sub>Social Media Post - Showa Day Retro Culture Magazine Cover</sub> | <a href="https://cms-assets.youmind.com/media/1777453151822_tkaefc_HG_wnqGbAAAq416.jpg"><img src="https://cms-assets.youmind.com/media/1777453151822_tkaefc_HG_wnqGbAAAq416.jpg" width="100%"></a><br><sub>Social Media Post - Social Media Fashion Outfit Generation</sub> | <a href="https://cms-assets.youmind.com/media/1777453145397_amcmoh_HG_1BaQb0AAKXrk.jpg"><img src="https://cms-assets.youmind.com/media/1777453145397_amcmoh_HG_1BaQb0AAKXrk.jpg" width="100%"></a><br><sub>Social Media Post - Travel Snapshot Collage Prompt</sub> |
 | <a href="https://cms-assets.youmind.com/media/1777453138935_3hpxkg_HHC-7jObsAAWmsk.jpg"><img src="https://cms-assets.youmind.com/media/1777453138935_3hpxkg_HHC-7jObsAAWmsk.jpg" width="100%"></a><br><sub>Social Media Post - Vintage Sign-Painter Sketch</sub> | <a href="https://cms-assets.youmind.com/media/1776658772018_lukyfw_HGSUfldbIAEiMWZ.jpg"><img src="https://cms-assets.youmind.com/media/1776658772018_lukyfw_HGSUfldbIAEiMWZ.jpg" width="100%"></a><br><sub>VR Headset Exploded View Poster</sub> |
 
+## 技术栈
 
-## 🛠️ 技术栈
+- Chrome Extension Manifest V3
+- Side Panel API
+- 原生 HTML + CSS（暗色主题）
+- OpenAI 兼容 LLM API
+- chrome.storage.local
 
-| 层 | 技术 |
-|-------|-----------|
-| 平台 | Chrome Extension — Manifest V3 |
-| 侧边栏 | `chrome.sidePanel` API |
-| UI | 原生 HTML + CSS（暗色主题） |
-| LLM | OpenAI 兼容 API，通过 `fetch` 调用 |
-| 存储 | `chrome.storage.local` |
-| 数据 | 207 个模板，聚合自开源画廊 |
-
----
-
-## 📄 文件结构
+## 文件结构
 
 ```
 ├── manifest.json       # 插件配置 (V3)
@@ -48,25 +87,21 @@
 └── README.zh-CN.md     # 中文说明
 ```
 
----
+## 致谢
 
-## 🙏 致谢
+本项目提示词模板来源于：
 
-本项目提示词模板来源于以下开源项目：
+- [nexu-io/open-design](https://github.com/nexu-io/open-design) — 46 个原始提示词模板 (Apache 2.0)
+- [wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill) — 162 个精选提示词模板 (MIT)
 
-- **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — 46 个原始提示词模板 (Apache 2.0)
-- **[wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill)** — 162 个精选提示词模板 (MIT)
+详见 [NOTICE.md](./NOTICE.md)。
 
-以上预览图来自 Open Design。详见 [NOTICE.md](./NOTICE.md)。
+## 贡献
 
----
+欢迎提交 Issue 或 Pull Request：[GitHub](https://github.com/yuemokm/image2-promptick)。
 
-## 📝 许可证
+<div align="center">
 
-[MIT](./LICENSE) © 2026
+为 AI 创作社区而生 ❤️
 
----
-
-<p align="center">
-  <sub>为 AI 创作社区而生 · <a href="https://github.com/yuemokm/image2-promptick/issues">欢迎反馈与贡献</a></sub>
-</p>
+</div>

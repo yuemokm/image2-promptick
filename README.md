@@ -2,8 +2,53 @@
 
 <h1>Image2 Promptick</h1>
 
-> [!NOTE]
-> Preview images below are sourced from [Open Design](https://github.com/nexu-io/open-design) (Apache 2.0). Click any image to view full size. Install the extension to browse all 207 templates including 162 more from wuyoscar/GPT-Image2-Skill.
+<p>A Chrome sidebar extension featuring <strong>207 curated AI image prompt templates</strong> with a bilingual <strong>EN/CN translation editor</strong>.</p>
+
+<p>
+  <b>English</b> | <a href="README.zh-CN.md">中文</a>
+</p>
+
+<img src="https://img.shields.io/badge/Chrome-Extension-blue?logo=googlechrome" alt="Chrome Extension">
+<img src="https://img.shields.io/badge/Manifest-V3-green" alt="Manifest V3">
+<img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT License">
+
+</div>
+
+## Overview
+
+**Image2 Promptick** is a Chrome sidebar extension that aggregates **207 curated AI image generation prompt templates** from open-source galleries ([Open Design](https://github.com/nexu-io/open-design) + [GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill)), then lets you **translate** them into Chinese, **edit** bilingually, and **sync** changes between languages — all without leaving your current tab.
+
+## Features
+
+- **Browse & Filter** — 207 templates across 30+ categories with search and category filter
+- **Translate** — One-click EN → CN translation via your own LLM
+- **Bidirectional Sync** — Edit the Chinese, the LLM rewrites the English to match
+- **Copy Buttons** — Copy EN or CN independently
+- **Full-size Image Viewer** — Lightbox overlay for reference images, no tab switch
+- **BYOK (Bring Your Own Key)** — Any OpenAI-compatible API (GPT, DeepSeek, volcengine, etc.)
+
+## Installation
+
+1. Clone or download this repository.
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable **Developer mode** (toggle in the top-right corner).
+4. Click **Load unpacked** and select the extension folder.
+5. Click the extension icon in the toolbar to open the side panel.
+6. Click ⚙️ Settings to configure your LLM API.
+
+## Usage
+
+1. Scroll through the template gallery with thumbnails, or use the search bar and category filter.
+2. Click any template card to open the editor.
+3. Click **🌐 Translate to Chinese** to translate via LLM.
+4. Modify the Chinese text.
+5. Click **🔄 Sync English** — the LLM rewrites the English to match your edits.
+6. Click **📋 Copy** to copy either side.
+7. Click **📷 View Full Image** at the top of the editor for a lightbox preview.
+
+## Gallery
+
+> Preview images below are sourced from [Open Design](https://github.com/nexu-io/open-design) (Apache 2.0). Click any image to view full size.
 
 | | | | |
 |---|---|---|---|
@@ -18,21 +63,15 @@
 | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/social-media-post-sensational-girl-dance-storyboard-8-shots.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/social-media-post-sensational-girl-dance-storyboard-8-shots.jpg" width="100%"></a><br><sub>Social Media Post - Sensational Girl Dance Storyboard (8 Shots)</sub> | <a href="https://cms-assets.youmind.com/media/1777453174956_qapj6l_HGy7GDlbYAAR6Np.jpg"><img src="https://cms-assets.youmind.com/media/1777453174956_qapj6l_HGy7GDlbYAAR6Np.jpg" width="100%"></a><br><sub>Social Media Post - Showa Day Retro Culture Magazine Cover</sub> | <a href="https://cms-assets.youmind.com/media/1777453151822_tkaefc_HG_wnqGbAAAq416.jpg"><img src="https://cms-assets.youmind.com/media/1777453151822_tkaefc_HG_wnqGbAAAq416.jpg" width="100%"></a><br><sub>Social Media Post - Social Media Fashion Outfit Generation</sub> | <a href="https://cms-assets.youmind.com/media/1777453145397_amcmoh_HG_1BaQb0AAKXrk.jpg"><img src="https://cms-assets.youmind.com/media/1777453145397_amcmoh_HG_1BaQb0AAKXrk.jpg" width="100%"></a><br><sub>Social Media Post - Travel Snapshot Collage Prompt</sub> |
 | <a href="https://cms-assets.youmind.com/media/1777453138935_3hpxkg_HHC-7jObsAAWmsk.jpg"><img src="https://cms-assets.youmind.com/media/1777453138935_3hpxkg_HHC-7jObsAAWmsk.jpg" width="100%"></a><br><sub>Social Media Post - Vintage Sign-Painter Sketch</sub> | <a href="https://cms-assets.youmind.com/media/1776658772018_lukyfw_HGSUfldbIAEiMWZ.jpg"><img src="https://cms-assets.youmind.com/media/1776658772018_lukyfw_HGSUfldbIAEiMWZ.jpg" width="100%"></a><br><sub>VR Headset Exploded View Poster</sub> |
 
+## Tech Stack
 
-## 🛠️ Tech Stack
+- Chrome Extension Manifest V3
+- Side Panel API
+- Vanilla HTML + CSS (dark theme)
+- OpenAI-compatible LLM API
+- chrome.storage.local
 
-| Layer | Technology |
-|-------|-----------|
-| Platform | Chrome Extension — Manifest V3 |
-| Sidebar | `chrome.sidePanel` API |
-| UI | Vanilla HTML + CSS (dark theme) |
-| LLM | OpenAI-compatible API via `fetch` |
-| Storage | `chrome.storage.local` |
-| Data | 207 templates aggregated from open-source galleries |
-
----
-
-## 📄 File Structure
+## File Structure
 
 ```
 ├── manifest.json       # Extension manifest (V3)
@@ -48,25 +87,21 @@
 └── README.zh-CN.md     # Chinese version
 ```
 
----
+## Acknowledgments
 
-## 🙏 Acknowledgments
+The prompt templates in this project are sourced from:
 
-The prompt templates in this project are sourced from the following open-source projects:
+- [nexu-io/open-design](https://github.com/nexu-io/open-design) — 46 original prompt templates (Apache 2.0)
+- [wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill) — 162 curated prompt templates (MIT)
 
-- **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — 46 original prompt templates (Apache 2.0)
-- **[wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill)** — 162 curated prompt templates (MIT)
+See [NOTICE.md](./NOTICE.md) for full attribution.
 
-Preview images above are from Open Design. See [NOTICE.md](./NOTICE.md) for full attribution.
+## Contributing
 
----
+Contributions are welcome. Please open an issue or submit a pull request on [GitHub](https://github.com/yuemokm/image2-promptick).
 
-## 📝 License
+<div align="center">
 
-[MIT](./LICENSE) © 2026
+Made with ❤️ for the AI art community.
 
----
-
-<p align="center">
-  <sub>Made for the AI art community · <a href="https://github.com/yuemokm/image2-promptick/issues">Feedback & Contributions welcome</a></sub>
-</p>
+</div>
