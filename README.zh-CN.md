@@ -63,149 +63,25 @@
 
 ---
 
-## 🖼️ 模板画廊
-
-以下是插件内部分模板预览。点击图片查看完整尺寸。
-
-<details open>
-<summary><strong>🎌 动漫</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/anime-manga/anime-expression-grid.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/anime-manga/anime-expression-grid.png" width="100%" alt="动漫表情网格"></a>
-      <sub><strong>16 格动漫表情网格</strong> · <code>"anime"</code> <code>"character design"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/gaming/anime-open-world.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/gaming/anime-open-world.png" width="100%" alt="动漫开放世界 HUD"></a>
-      <sub><strong>动漫开放世界游戏 HUD</strong> · <code>"gaming"</code> <code>"UI"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>🎬 影视与游戏</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/cinematic-animation/noir-detective.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/cinematic-animation/noir-detective.png" width="100%" alt="1940s 黑色电影"></a>
-      <sub><strong>1940 年代黑色电影侦探</strong> · <code>"cinematic"</code> <code>"noir"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-anime-fighting-game-captain-ryuuga-vs-kaze-renshin.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-anime-fighting-game-captain-ryuuga-vs-kaze-renshin.jpg" width="100%" alt="格斗游戏截图"></a>
-      <sub><strong>动漫格斗游戏场景</strong> · <code>"game"</code> <code>"action"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>👗 时尚与 📷 摄影</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/fashion-editorial/haute-couture-sculptural-runway.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/fashion-editorial/haute-couture-sculptural-runway.png" width="100%" alt="高级定制时装"></a>
-      <sub><strong>前卫高级定制时装周</strong> · <code>"fashion"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/photography/panorama-jungle.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/photography/panorama-jungle.png" width="100%" alt="360° 丛林全景"></a>
-      <sub><strong>360° 等距柱状丛林全景</strong> · <code>"photography"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>🔬 科研与科普</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/research-paper-figures/ablation-bars.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/research-paper-figures/ablation-bars.png" width="100%" alt="消融实验柱状图"></a>
-      <sub><strong>带误差棒的消融实验柱状图</strong> · <code>"research"</code> <code>"charts"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/scientific-educational/human-anatomy-muscular-poster.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/scientific-educational/human-anatomy-muscular-poster.png" width="100%" alt="解剖学海报"></a>
-      <sub><strong>人体肌肉系统解剖海报</strong> · <code>"scientific"</code> <code>"educational"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>🏛️ 建筑与工程</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/architecture-interior/biophilic-biotech-lab-render.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/architecture-interior/biophilic-biotech-lab-render.png" width="100%" alt="生物科技实验室渲染"></a>
-      <sub><strong>亲生物科技实验室效果图</strong> · <code>"architecture"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/technical-illustration/car-powertrain-transparent-cutaway.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/technical-illustration/car-powertrain-transparent-cutaway.png" width="100%" alt="汽车动力系统剖面"></a>
-      <sub><strong>汽车动力总成透明剖视图</strong> · <code>"technical"</code> <code>"illustration"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>📦 产品与 📋 信息图</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/product-food/product-dieline-box.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/product-food/product-dieline-box.png" width="100%" alt="产品包装盒"></a>
-      <sub><strong>从刀模图生成 3D 包装盒</strong> · <code>"product"</code> <code>"packaging"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/infographics-field-guides/camera-styles-infographic.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/infographics-field-guides/camera-styles-infographic.png" width="100%" alt="相机风格信息图"></a>
-      <sub><strong>相机风格参考信息图</strong> · <code>"infographic"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>📝 排版与 UI/UX</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/typography-posters/pulp-scifi-cover.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/typography-posters/pulp-scifi-cover.png" width="100%" alt="科幻杂志封面"></a>
-      <sub><strong>1950 年代科幻杂志封面</strong> · <code>"typography"</code> <code>"poster"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <img src="icon.png" width="100%" alt="还有 200+ 模板">
-      <sub><strong>……还有 200+ 模板</strong> <br>安装插件浏览完整收藏</sub>
-    </td>
-  </tr>
-</table>
-</details>
+## 🖼️ 模板预览
 
 > [!NOTE]
-> 以上模板预览图均热链接自原始开源仓库。完整提示词文本在 Chrome 插件中。
+> 以下预览图来自 [Open Design](https://github.com/nexu-io/open-design) (Apache 2.0)。点击图片查看完整尺寸。安装插件可浏览全部 207 个模板（含 162 个来自 wuyoscar/GPT-Image2-Skill 的模板）。
 
----
-
-## 🗂️ 完整分类列表
-
-```
-🎌 动漫 & 漫画      🏛️ 建筑 & 室内      💄 美容 & 生活
-🏷️ 品牌 & 标识       👤 角色设计         🎬 电影 & 动画
-🎥 电影参考         📊 数据可视化       ✂️ 图片编辑
-🎪 活动 & 体验       👗 时尚编辑         🎨 绘画
-🎮 游戏             🖼️ 插画             📋 信息图
-🖌️ 水墨 & 国风       📐 等距             📚 OpenAI 食谱
-📷 摄影             👾 像素艺术         🍔 产品 & 美食
-🔬 论文图表         🌃 复古 & 赛博朋克   🔭 科学 & 教育
-💻 屏幕摄影         💉 刺青设计         ⚙️ 技术插图
-🔤 排版 & 海报       📱 UI/UX 原型       🖍️ 水彩
-🏛️ 游戏 UI          📦 应用 & 网页设计
-```
+| | | | |
+|---|---|---|---|
+| <a href="https://cms-assets.youmind.com/media/1776661968404_8a5flm_HGQc_KOaMAA2vt0.jpg"><img src="https://cms-assets.youmind.com/media/1776661968404_8a5flm_HGQc_KOaMAA2vt0.jpg" width="100%"></a><br><sub>进化信息图</sub> | <a href="https://cms-assets.youmind.com/media/1776756799880_c8u8w7_HGUKjjaasAAvVRa.jpg"><img src="https://cms-assets.youmind.com/media/1776756799880_c8u8w7_HGUKjjaasAAvVRa.jpg" width="100%"></a><br><sub>动漫格斗</sub> | <a href="https://cms-assets.youmind.com/media/1776699445498_ga2ry5_HGO7H0DWkAApdKK.jpg"><img src="https://cms-assets.youmind.com/media/1776699445498_ga2ry5_HGO7H0DWkAApdKK.jpg" width="100%"></a><br><sub>直播 UI</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-anime-fighting-game-captain-ryuuga-vs-kaze-renshin.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-anime-fighting-game-captain-ryuuga-vs-kaze-renshin.jpg" width="100%"></a><br><sub>格斗游戏</sub> |
+| <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-guanyu-slaying-yanliang.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-guanyu-slaying-yanliang.jpg" width="100%"></a><br><sub>关羽斩颜良</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-lyubu-yuanmen-archery.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-lyubu-yuanmen-archery.jpg" width="100%"></a><br><sub>吕布辕门射戟</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-zhaoyun-cradle-escape.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-zhaoyun-cradle-escape.jpg" width="100%"></a><br><sub>赵云长坂坡</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-ui-ancient-china-open-world-mmo-hud.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-ui-ancient-china-open-world-mmo-hud.jpg" width="100%"></a><br><sub>MMO 游戏 HUD</sub> |
+| <a href="https://cms-assets.youmind.com/media/1776662673014_nf0taw_HGRMNDybsAAGG88.jpg"><img src="https://cms-assets.youmind.com/media/1776662673014_nf0taw_HGRMNDybsAAGG88.jpg" width="100%"></a><br><sub>城市美食地图</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/illustration-crayon-kid-drawing-rework.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/illustration-crayon-kid-drawing-rework.jpg" width="100%"></a><br><sub>蜡笔重绘</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/infographic-otaku-dance-choreography-breakdown-gokurakujodo-16-panels.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/infographic-otaku-dance-choreography-breakdown-gokurakujodo-16-panels.jpg" width="100%"></a><br><sub>舞蹈分解</sub> | <a href="https://cms-assets.youmind.com/media/1776699414289_t6mebs_HGQQxukbUAA_qc0.jpg"><img src="https://cms-assets.youmind.com/media/1776699414289_t6mebs_HGQQxukbUAA_qc0.jpg" width="100%"></a><br><sub>桃太郎讲解</sub> |
+| <a href="https://raw.githubusercontent.com/joeylee12629-star/open-design/feat/prompt-template-live-artifact-dashboard/prompt-templates/image/notion-team-dashboard-live-artifact.preview.png"><img src="https://raw.githubusercontent.com/joeylee12629-star/open-design/feat/prompt-template-live-artifact-dashboard/prompt-templates/image/notion-team-dashboard-live-artifact.preview.png" width="100%"></a><br><sub>团队仪表盘</sub> | <a href="https://cms-assets.youmind.com/media/1777453169843_ceq758_HG-nC89aQAApDXC.jpg"><img src="https://cms-assets.youmind.com/media/1777453169843_ceq758_HG-nC89aQAApDXC.jpg" width="100%"></a><br><sub>动漫转真人</sub> | <a href="https://cms-assets.youmind.com/media/1777367267771_teyn0r_HG74_nJaoAEM5oD.jpg"><img src="https://cms-assets.youmind.com/media/1777367267771_teyn0r_HG74_nJaoAEM5oD.jpg" width="100%"></a><br><sub>时尚网格</sub> | <a href="https://cms-assets.youmind.com/media/1777453132629_dmkonb_HG9Und1aYAAyo9g.jpg"><img src="https://cms-assets.youmind.com/media/1777453132629_dmkonb_HG9Und1aYAAyo9g.jpg" width="100%"></a><br><sub>南亚人像</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453164993_mt5b69_HHDoWfeaUAEA6Vt.jpg"><img src="https://cms-assets.youmind.com/media/1777453164993_mt5b69_HHDoWfeaUAEA6Vt.jpg" width="100%"></a><br><sub>赛博朋克人像</sub> | <a href="https://cms-assets.youmind.com/media/1777453212849_lh9pew_HHA47WybEAAft9f.jpg"><img src="https://cms-assets.youmind.com/media/1777453212849_lh9pew_HHA47WybEAAft9f.jpg" width="100%"></a><br><sub>奇幻少女</sub> | <a href="https://cms-assets.youmind.com/media/1777367299255_7e01qg_HG7uRRbbIAABIeT.jpg"><img src="https://cms-assets.youmind.com/media/1777367299255_7e01qg_HG7uRRbbIAABIeT.jpg" width="100%"></a><br><sub>蓝发幻想</sub> | <a href="https://cms-assets.youmind.com/media/1777453184257_vh9vl_HG9tAkOa4AAuRrn.jpg"><img src="https://cms-assets.youmind.com/media/1777453184257_vh9vl_HG9tAkOa4AAuRrn.jpg" width="100%"></a><br><sub>魅力女性</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453164857_ghcikd_HG9U5wnbYAE3-76.jpg"><img src="https://cms-assets.youmind.com/media/1777453164857_ghcikd_HG9U5wnbYAE3-76.jpg" width="100%"></a><br><sub>自拍质感</sub> | <a href="https://cms-assets.youmind.com/media/1777453212320_egzd24_HHA47W2aIAEKWQz.jpg"><img src="https://cms-assets.youmind.com/media/1777453212320_egzd24_HHA47W2aIAEKWQz.jpg" width="100%"></a><br><sub>奇幻法师</sub> | <a href="https://cms-assets.youmind.com/media/1777367273368_hp9n0c_HG7mqKmb0AA1ecq.jpg"><img src="https://cms-assets.youmind.com/media/1777367273368_hp9n0c_HG7mqKmb0AA1ecq.jpg" width="100%"></a><br><sub>黑白人像</sub> | <a href="https://cms-assets.youmind.com/media/1777453186815_er6vgp_HG-IvNXaIAALR4b.jpg"><img src="https://cms-assets.youmind.com/media/1777453186815_er6vgp_HG-IvNXaIAALR4b.jpg" width="100%"></a><br><sub>照片修复</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453183422_nu32e1_HG9s-kFbMAACMYA.jpg"><img src="https://cms-assets.youmind.com/media/1777453183422_nu32e1_HG9s-kFbMAACMYA.jpg" width="100%"></a><br><sub>诗意花园</sub> | <a href="https://cms-assets.youmind.com/media/1777453121103_le4xip_HG958SlbsAAESjg.jpg"><img src="https://cms-assets.youmind.com/media/1777453121103_le4xip_HG958SlbsAAESjg.jpg" width="100%"></a><br><sub>身份壁纸</sub> | <a href="https://cms-assets.youmind.com/media/1777453151202_3usbgm_HHAkoXnaMAAFvsx.jpg"><img src="https://cms-assets.youmind.com/media/1777453151202_3usbgm_HHAkoXnaMAAFvsx.jpg" width="100%"></a><br><sub>AI 自拍</sub> | <a href="https://cms-assets.youmind.com/media/1777367317129_2rohn0_HG8hIdab0AAwzdp.jpg"><img src="https://cms-assets.youmind.com/media/1777367317129_2rohn0_HG8hIdab0AAwzdp.jpg" width="100%"></a><br><sub>签名色纸</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453211307_ml0yqj_HG_dACOaUAArlU6.jpg"><img src="https://cms-assets.youmind.com/media/1777453211307_ml0yqj_HG_dACOaUAArlU6.jpg" width="100%"></a><br><sub>雪兔皇后</sub> | <a href="https://cms-assets.youmind.com/media/1777453211026_n5y31f_HG_dAB7aoAAZg6K.jpg"><img src="https://cms-assets.youmind.com/media/1777453211026_n5y31f_HG_dAB7aoAAZg6K.jpg" width="100%"></a><br><sub>雪兔面具</sub> | <a href="https://cms-assets.youmind.com/media/1777453211568_as7go2_HG_dAFracAA38vJ.jpg"><img src="https://cms-assets.youmind.com/media/1777453211568_as7go2_HG_dAFracAA38vJ.jpg" width="100%"></a><br><sub>雪兔汉服</sub> | <a href="https://cms-assets.youmind.com/media/1777453209807_szh7zz_HG_c_-ca4AAz43H.jpg"><img src="https://cms-assets.youmind.com/media/1777453209807_szh7zz_HG_c_-ca4AAz43H.jpg" width="100%"></a><br><sub>雪兔精灵</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453126318_sew6kg_HG-PNvQbsAAup2e.jpg"><img src="https://cms-assets.youmind.com/media/1777453126318_sew6kg_HG-PNvQbsAAup2e.jpg" width="100%"></a><br><sub>宋代汉服</sub> | <a href="https://cms-assets.youmind.com/media/1777453222738_l3artn_HG_koUwaAAAk7hW.jpg"><img src="https://cms-assets.youmind.com/media/1777453222738_l3artn_HG_koUwaAAAk7hW.jpg" width="100%"></a><br><sub>宝可梦商店</sub> | <a href="https://cms-assets.youmind.com/media/1777453149026_gd2k50_HHCSvymboAAVscc.jpg"><img src="https://cms-assets.youmind.com/media/1777453149026_gd2k50_HHCSvymboAAVscc.jpg" width="100%"></a><br><sub>电梯场景</sub> | <a href="https://cms-assets.youmind.com/media/1777453203838_2bzdt9_HHAXnBlbwAA5Ke4.jpg"><img src="https://cms-assets.youmind.com/media/1777453203838_2bzdt9_HHAXnBlbwAA5Ke4.jpg" width="100%"></a><br><sub>迷糊精灵</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453137877_aqjk7l_HHAumFda4AAVbjJ.jpg"><img src="https://cms-assets.youmind.com/media/1777453137877_aqjk7l_HHAumFda4AAVbjJ.jpg" width="100%"></a><br><sub>时尚摄影</sub> | <a href="https://cms-assets.youmind.com/media/1777453119180_2300fp_HHAlV58a8AA3CWq.jpg"><img src="https://cms-assets.youmind.com/media/1777453119180_2300fp_HHAlV58a8AA3CWq.jpg" width="100%"></a><br><sub>时尚拼贴</sub> | <a href="https://cms-assets.youmind.com/media/1777453173788_tb78r0_HHDu7nUWQAAWH7O.jpg"><img src="https://cms-assets.youmind.com/media/1777453173788_tb78r0_HHDu7nUWQAAWH7O.jpg" width="100%"></a><br><sub>PSG 官宣海报</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/social-media-post-sensational-girl-dance-storyboard-8-shots.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/social-media-post-sensational-girl-dance-storyboard-8-shots.jpg" width="100%"></a><br><sub>舞蹈分镜</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453174956_qapj6l_HGy7GDlbYAAR6Np.jpg"><img src="https://cms-assets.youmind.com/media/1777453174956_qapj6l_HGy7GDlbYAAR6Np.jpg" width="100%"></a><br><sub>昭和杂志</sub> | <a href="https://cms-assets.youmind.com/media/1777453151822_tkaefc_HG_wnqGbAAAq416.jpg"><img src="https://cms-assets.youmind.com/media/1777453151822_tkaefc_HG_wnqGbAAAq416.jpg" width="100%"></a><br><sub>时尚穿搭</sub> | <a href="https://cms-assets.youmind.com/media/1777453145397_amcmoh_HG_1BaQb0AAKXrk.jpg"><img src="https://cms-assets.youmind.com/media/1777453145397_amcmoh_HG_1BaQb0AAKXrk.jpg" width="100%"></a><br><sub>旅行拼贴</sub> | <a href="https://cms-assets.youmind.com/media/1777453138935_3hpxkg_HHC-7jObsAAWmsk.jpg"><img src="https://cms-assets.youmind.com/media/1777453138935_3hpxkg_HHC-7jObsAAWmsk.jpg" width="100%"></a><br><sub>复古招牌</sub> |
+| <a href="https://cms-assets.youmind.com/media/1776658772018_lukyfw_HGSUfldbIAEiMWZ.jpg"><img src="https://cms-assets.youmind.com/media/1776658772018_lukyfw_HGSUfldbIAEiMWZ.jpg" width="100%"></a><br><sub>VR 头显</sub> | | | |
 
 ---
 
@@ -234,7 +110,8 @@
 ├── icon.png            # 插件图标
 ├── NOTICE.md           # 致谢与许可证说明
 ├── LICENSE             # MIT
-└── README.md           # 英文说明
+├── README.md           # 英文说明
+└── README.zh-CN.md     # 中文说明
 ```
 
 ---
@@ -246,7 +123,7 @@
 - **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — 46 个原始提示词模板 (Apache 2.0)
 - **[wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill)** — 162 个精选提示词模板 (MIT)
 
-预览图热链接自原始仓库。详见 [NOTICE.md](./NOTICE.md)。
+以上预览图来自 Open Design。详见 [NOTICE.md](./NOTICE.md)。
 
 ---
 

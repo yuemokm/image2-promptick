@@ -65,147 +65,23 @@
 
 ## 🖼️ Template Gallery
 
-Here's a preview of what's inside the extension. Click any image to view full size.
-
-<details open>
-<summary><strong>🎌 Anime & Manga</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/anime-manga/anime-expression-grid.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/anime-manga/anime-expression-grid.png" width="100%" alt="16-panel anime expression grid"></a>
-      <sub><strong>16-panel anime expression grid</strong> · <code>"anime"</code> <code>"character design"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/gaming/anime-open-world.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/gaming/anime-open-world.png" width="100%" alt="Anime open-world adventure HUD"></a>
-      <sub><strong>Anime open-world adventure HUD</strong> · <code>"gaming"</code> <code>"UI"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>🎬 Cinematic & Gaming</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/cinematic-animation/noir-detective.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/cinematic-animation/noir-detective.png" width="100%" alt="1940s film-noir still"></a>
-      <sub><strong>1940s film-noir detective still</strong> · <code>"cinematic"</code> <code>"noir"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-anime-fighting-game-captain-ryuuga-vs-kaze-renshin.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-anime-fighting-game-captain-ryuuga-vs-kaze-renshin.jpg" width="100%" alt="Anime fighting game screenshot"></a>
-      <sub><strong>Anime fighting game screenshot</strong> · <code>"game"</code> <code>"action"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>👗 Fashion & 📷 Photography</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/fashion-editorial/haute-couture-sculptural-runway.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/fashion-editorial/haute-couture-sculptural-runway.png" width="100%" alt="Avant-garde haute couture"></a>
-      <sub><strong>Avant-garde Haute Couture Runway</strong> · <code>"fashion"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/photography/panorama-jungle.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/photography/panorama-jungle.png" width="100%" alt="360° jungle panorama"></a>
-      <sub><strong>360° equirectangular jungle panorama</strong> · <code>"photography"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>🔬 Research &  Scientific</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/research-paper-figures/ablation-bars.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/research-paper-figures/ablation-bars.png" width="100%" alt="Ablation bar chart"></a>
-      <sub><strong>Ablation bar chart with error bars</strong> · <code>"research"</code> <code>"charts"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/scientific-educational/human-anatomy-muscular-poster.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/scientific-educational/human-anatomy-muscular-poster.png" width="100%" alt="Anatomy poster"></a>
-      <sub><strong>Human anatomy muscular system poster</strong> · <code>"scientific"</code> <code>"educational"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>🏛️ Architecture & Technical</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/architecture-interior/biophilic-biotech-lab-render.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/architecture-interior/biophilic-biotech-lab-render.png" width="100%" alt="Biophilic biotech lab"></a>
-      <sub><strong>Biophilic Biotech Lab render</strong> · <code>"architecture"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/technical-illustration/car-powertrain-transparent-cutaway.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/technical-illustration/car-powertrain-transparent-cutaway.png" width="100%" alt="Car powertrain cutaway"></a>
-      <sub><strong>Car Powertrain Transparent Cutaway</strong> · <code>"technical"</code> <code>"illustration"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>📦 Product & 📋 Infographics</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/product-food/product-dieline-box.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/product-food/product-dieline-box.png" width="100%" alt="3D product box from dieline"></a>
-      <sub><strong>3D product box from dieline</strong> · <code>"product"</code> <code>"packaging"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/infographics-field-guides/camera-styles-infographic.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/infographics-field-guides/camera-styles-infographic.png" width="100%" alt="Camera styles infographic"></a>
-      <sub><strong>Camera styles reference infographic</strong> · <code>"infographic"</code></sub>
-    </td>
-  </tr>
-</table>
-</details>
-
-<details>
-<summary><strong>📝 Typography & UI/UX</strong></summary>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/typography-posters/pulp-scifi-cover.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/typography-posters/pulp-scifi-cover.png" width="100%" alt="Pulp sci-fi cover"></a>
-      <sub><strong>1950s pulp sci-fi magazine cover</strong> · <code>"typography"</code> <code>"poster"</code></sub>
-    </td>
-    <td width="50%" align="center">
-      <img src="icon.png" width="100%" alt="200+ more templates inside the extension">
-      <sub><strong>...and 200+ more templates</strong> <br> Install the extension to browse the full collection</sub>
-    </td>
-  </tr>
-</table>
-</details>
-
 > [!NOTE]
-> All template preview images above are hot-linked from their original open-source repositories. Full prompt texts are available inside the Chrome extension.
+> Preview images below are sourced from [Open Design](https://github.com/nexu-io/open-design) (Apache 2.0). Click any image to view full size. Install the extension to browse all 207 templates including 162 more from wuyoscar/GPT-Image2-Skill.
 
----
-
-## 🗂️ Full Category List
-
-```
-🎌 Anime & Manga         🏛️ Architecture           💄 Beauty & Lifestyle
-🏷️ Brand & Identity      👤 Character Design        🎬 Cinematic & Animation
-🎥 Film References       📊 Data Visualization      ✂️ Edit Endpoint
-🎪 Events & Experience   👗 Fashion Editorial       🎨 Fine Art Painting
-🎮 Gaming                🖼️ Illustration           📋 Infographics
-🖌️ Ink & Chinese         📐 Isometric               📚 OpenAI Cookbook
-📷 Photography           👾 Pixel Art               🍔 Product & Food
-🔬 Research Paper Figs   🌃 Retro & Cyberpunk       🔭 Scientific & Educational
-💻 Screen Photography    💉 Tattoo Design            ⚙️ Technical Illustration
-🔤 Typography & Posters  📱 UI/UX Mockups           🖍️ Watercolor
-🏛️ Game UI               📦 App / Web Design
-```
+| | | | |
+|---|---|---|---|
+| <a href="https://cms-assets.youmind.com/media/1776661968404_8a5flm_HGQc_KOaMAA2vt0.jpg"><img src="https://cms-assets.youmind.com/media/1776661968404_8a5flm_HGQc_KOaMAA2vt0.jpg" width="100%"></a><br><sub>Evolution Infographic</sub> | <a href="https://cms-assets.youmind.com/media/1776756799880_c8u8w7_HGUKjjaasAAvVRa.jpg"><img src="https://cms-assets.youmind.com/media/1776756799880_c8u8w7_HGUKjjaasAAvVRa.jpg" width="100%"></a><br><sub>Anime Battle</sub> | <a href="https://cms-assets.youmind.com/media/1776699445498_ga2ry5_HGO7H0DWkAApdKK.jpg"><img src="https://cms-assets.youmind.com/media/1776699445498_ga2ry5_HGO7H0DWkAApdKK.jpg" width="100%"></a><br><sub>Live UI Mockup</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-anime-fighting-game-captain-ryuuga-vs-kaze-renshin.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-anime-fighting-game-captain-ryuuga-vs-kaze-renshin.jpg" width="100%"></a><br><sub>Fighting Game</sub> |
+| <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-guanyu-slaying-yanliang.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-guanyu-slaying-yanliang.jpg" width="100%"></a><br><sub>Guan Yu</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-lyubu-yuanmen-archery.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-lyubu-yuanmen-archery.jpg" width="100%"></a><br><sub>Lü Bu</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-zhaoyun-cradle-escape.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-three-kingdoms-zhaoyun-cradle-escape.jpg" width="100%"></a><br><sub>Zhao Yun</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-ui-ancient-china-open-world-mmo-hud.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-ui-ancient-china-open-world-mmo-hud.jpg" width="100%"></a><br><sub>MMO HUD</sub> |
+| <a href="https://cms-assets.youmind.com/media/1776662673014_nf0taw_HGRMNDybsAAGG88.jpg"><img src="https://cms-assets.youmind.com/media/1776662673014_nf0taw_HGRMNDybsAAGG88.jpg" width="100%"></a><br><sub>City Food Map</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/illustration-crayon-kid-drawing-rework.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/illustration-crayon-kid-drawing-rework.jpg" width="100%"></a><br><sub>Crayon Rework</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/infographic-otaku-dance-choreography-breakdown-gokurakujodo-16-panels.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/infographic-otaku-dance-choreography-breakdown-gokurakujodo-16-panels.jpg" width="100%"></a><br><sub>Dance Choreography</sub> | <a href="https://cms-assets.youmind.com/media/1776699414289_t6mebs_HGQQxukbUAA_qc0.jpg"><img src="https://cms-assets.youmind.com/media/1776699414289_t6mebs_HGQQxukbUAA_qc0.jpg" width="100%"></a><br><sub>Momotaro Explainer</sub> |
+| <a href="https://raw.githubusercontent.com/joeylee12629-star/open-design/feat/prompt-template-live-artifact-dashboard/prompt-templates/image/notion-team-dashboard-live-artifact.preview.png"><img src="https://raw.githubusercontent.com/joeylee12629-star/open-design/feat/prompt-template-live-artifact-dashboard/prompt-templates/image/notion-team-dashboard-live-artifact.preview.png" width="100%"></a><br><sub>Team Dashboard</sub> | <a href="https://cms-assets.youmind.com/media/1777453169843_ceq758_HG-nC89aQAApDXC.jpg"><img src="https://cms-assets.youmind.com/media/1777453169843_ceq758_HG-nC89aQAApDXC.jpg" width="100%"></a><br><sub>Anime Girl to Photo</sub> | <a href="https://cms-assets.youmind.com/media/1777367267771_teyn0r_HG74_nJaoAEM5oD.jpg"><img src="https://cms-assets.youmind.com/media/1777367267771_teyn0r_HG74_nJaoAEM5oD.jpg" width="100%"></a><br><sub>Fashion Grid</sub> | <a href="https://cms-assets.youmind.com/media/1777453132629_dmkonb_HG9Und1aYAAyo9g.jpg"><img src="https://cms-assets.youmind.com/media/1777453132629_dmkonb_HG9Und1aYAAyo9g.jpg" width="100%"></a><br><sub>S. Asian Portrait</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453164993_mt5b69_HHDoWfeaUAEA6Vt.jpg"><img src="https://cms-assets.youmind.com/media/1777453164993_mt5b69_HHDoWfeaUAEA6Vt.jpg" width="100%"></a><br><sub>Cyberpunk Portrait</sub> | <a href="https://cms-assets.youmind.com/media/1777453212849_lh9pew_HHA47WybEAAft9f.jpg"><img src="https://cms-assets.youmind.com/media/1777453212849_lh9pew_HHA47WybEAAft9f.jpg" width="100%"></a><br><sub>Fantasy Girl</sub> | <a href="https://cms-assets.youmind.com/media/1777367299255_7e01qg_HG7uRRbbIAABIeT.jpg"><img src="https://cms-assets.youmind.com/media/1777367299255_7e01qg_HG7uRRbbIAABIeT.jpg" width="100%"></a><br><sub>Blue-Haired</sub> | <a href="https://cms-assets.youmind.com/media/1777453184257_vh9vl_HG9tAkOa4AAuRrn.jpg"><img src="https://cms-assets.youmind.com/media/1777453184257_vh9vl_HG9tAkOa4AAuRrn.jpg" width="100%"></a><br><sub>Glamorous Woman</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453164857_ghcikd_HG9U5wnbYAE3-76.jpg"><img src="https://cms-assets.youmind.com/media/1777453164857_ghcikd_HG9U5wnbYAE3-76.jpg" width="100%"></a><br><sub>Selfie Texture</sub> | <a href="https://cms-assets.youmind.com/media/1777453212320_egzd24_HHA47W2aIAEKWQz.jpg"><img src="https://cms-assets.youmind.com/media/1777453212320_egzd24_HHA47W2aIAEKWQz.jpg" width="100%"></a><br><sub>Fantasy Mage</sub> | <a href="https://cms-assets.youmind.com/media/1777367273368_hp9n0c_HG7mqKmb0AA1ecq.jpg"><img src="https://cms-assets.youmind.com/media/1777367273368_hp9n0c_HG7mqKmb0AA1ecq.jpg" width="100%"></a><br><sub>Monochrome</sub> | <a href="https://cms-assets.youmind.com/media/1777453186815_er6vgp_HG-IvNXaIAALR4b.jpg"><img src="https://cms-assets.youmind.com/media/1777453186815_er6vgp_HG-IvNXaIAALR4b.jpg" width="100%"></a><br><sub>Photo Restoration</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453183422_nu32e1_HG9s-kFbMAACMYA.jpg"><img src="https://cms-assets.youmind.com/media/1777453183422_nu32e1_HG9s-kFbMAACMYA.jpg" width="100%"></a><br><sub>Poetic Woman</sub> | <a href="https://cms-assets.youmind.com/media/1777453121103_le4xip_HG958SlbsAAESjg.jpg"><img src="https://cms-assets.youmind.com/media/1777453121103_le4xip_HG958SlbsAAESjg.jpg" width="100%"></a><br><sub>Identity Portrait</sub> | <a href="https://cms-assets.youmind.com/media/1777453151202_3usbgm_HHAkoXnaMAAFvsx.jpg"><img src="https://cms-assets.youmind.com/media/1777453151202_3usbgm_HHAkoXnaMAAFvsx.jpg" width="100%"></a><br><sub>AI Selfie</sub> | <a href="https://cms-assets.youmind.com/media/1777367317129_2rohn0_HG8hIdab0AAwzdp.jpg"><img src="https://cms-assets.youmind.com/media/1777367317129_2rohn0_HG8hIdab0AAwzdp.jpg" width="100%"></a><br><sub>Marker Portrait</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453211307_ml0yqj_HG_dACOaUAArlU6.jpg"><img src="https://cms-assets.youmind.com/media/1777453211307_ml0yqj_HG_dACOaUAArlU6.jpg" width="100%"></a><br><sub>Snow Rabbit Empress</sub> | <a href="https://cms-assets.youmind.com/media/1777453211026_n5y31f_HG_dAB7aoAAZg6K.jpg"><img src="https://cms-assets.youmind.com/media/1777453211026_n5y31f_HG_dAB7aoAAZg6K.jpg" width="100%"></a><br><sub>Snow Rabbit Mask</sub> | <a href="https://cms-assets.youmind.com/media/1777453211568_as7go2_HG_dAFracAA38vJ.jpg"><img src="https://cms-assets.youmind.com/media/1777453211568_as7go2_HG_dAFracAA38vJ.jpg" width="100%"></a><br><sub>Snowy Rabbit Hanfu</sub> | <a href="https://cms-assets.youmind.com/media/1777453209807_szh7zz_HG_c_-ca4AAz43H.jpg"><img src="https://cms-assets.youmind.com/media/1777453209807_szh7zz_HG_c_-ca4AAz43H.jpg" width="100%"></a><br><sub>Snow Rabbit Spirit</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453126318_sew6kg_HG-PNvQbsAAup2e.jpg"><img src="https://cms-assets.youmind.com/media/1777453126318_sew6kg_HG-PNvQbsAAup2e.jpg" width="100%"></a><br><sub>Song Hanfu</sub> | <a href="https://cms-assets.youmind.com/media/1777453222738_l3artn_HG_koUwaAAAk7hW.jpg"><img src="https://cms-assets.youmind.com/media/1777453222738_l3artn_HG_koUwaAAAk7hW.jpg" width="100%"></a><br><sub>Pokémon Shop</sub> | <a href="https://cms-assets.youmind.com/media/1777453149026_gd2k50_HHCSvymboAAVscc.jpg"><img src="https://cms-assets.youmind.com/media/1777453149026_gd2k50_HHCSvymboAAVscc.jpg" width="100%"></a><br><sub>Elevator Scene</sub> | <a href="https://cms-assets.youmind.com/media/1777453203838_2bzdt9_HHAXnBlbwAA5Ke4.jpg"><img src="https://cms-assets.youmind.com/media/1777453203838_2bzdt9_HHAXnBlbwAA5Ke4.jpg" width="100%"></a><br><sub>Confused Elf</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453137877_aqjk7l_HHAumFda4AAVbjJ.jpg"><img src="https://cms-assets.youmind.com/media/1777453137877_aqjk7l_HHAumFda4AAVbjJ.jpg" width="100%"></a><br><sub>Fashion Photo</sub> | <a href="https://cms-assets.youmind.com/media/1777453119180_2300fp_HHAlV58a8AA3CWq.jpg"><img src="https://cms-assets.youmind.com/media/1777453119180_2300fp_HHAlV58a8AA3CWq.jpg" width="100%"></a><br><sub>Fashion Collage</sub> | <a href="https://cms-assets.youmind.com/media/1777453173788_tb78r0_HHDu7nUWQAAWH7O.jpg"><img src="https://cms-assets.youmind.com/media/1777453173788_tb78r0_HHDu7nUWQAAWH7O.jpg" width="100%"></a><br><sub>PSG Poster</sub> | <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/social-media-post-sensational-girl-dance-storyboard-8-shots.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/social-media-post-sensational-girl-dance-storyboard-8-shots.jpg" width="100%"></a><br><sub>Dance Storyboard</sub> |
+| <a href="https://cms-assets.youmind.com/media/1777453174956_qapj6l_HGy7GDlbYAAR6Np.jpg"><img src="https://cms-assets.youmind.com/media/1777453174956_qapj6l_HGy7GDlbYAAR6Np.jpg" width="100%"></a><br><sub>Showa Magazine</sub> | <a href="https://cms-assets.youmind.com/media/1777453151822_tkaefc_HG_wnqGbAAAq416.jpg"><img src="https://cms-assets.youmind.com/media/1777453151822_tkaefc_HG_wnqGbAAAq416.jpg" width="100%"></a><br><sub>Fashion Outfit</sub> | <a href="https://cms-assets.youmind.com/media/1777453145397_amcmoh_HG_1BaQb0AAKXrk.jpg"><img src="https://cms-assets.youmind.com/media/1777453145397_amcmoh_HG_1BaQb0AAKXrk.jpg" width="100%"></a><br><sub>Travel Collage</sub> | <a href="https://cms-assets.youmind.com/media/1777453138935_3hpxkg_HHC-7jObsAAWmsk.jpg"><img src="https://cms-assets.youmind.com/media/1777453138935_3hpxkg_HHC-7jObsAAWmsk.jpg" width="100%"></a><br><sub>Vintage Sign</sub> |
+| <a href="https://cms-assets.youmind.com/media/1776658772018_lukyfw_HGSUfldbIAEiMWZ.jpg"><img src="https://cms-assets.youmind.com/media/1776658772018_lukyfw_HGSUfldbIAEiMWZ.jpg" width="100%"></a><br><sub>VR Headset</sub> | | | |
 
 ---
 
@@ -234,7 +110,8 @@ Here's a preview of what's inside the extension. Click any image to view full si
 ├── icon.png            # Extension icon
 ├── NOTICE.md           # Attribution & license notices
 ├── LICENSE             # MIT
-└── README.md           # This file
+├── README.md           # This file (English)
+└── README.zh-CN.md     # Chinese version
 ```
 
 ---
@@ -246,7 +123,7 @@ The prompt templates in this project are sourced from the following open-source 
 - **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — 46 original prompt templates (Apache 2.0)
 - **[wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill)** — 162 curated prompt templates (MIT)
 
-Preview images are hot-linked from the original repositories. See [NOTICE.md](./NOTICE.md) for full attribution.
+Preview images above are from Open Design. See [NOTICE.md](./NOTICE.md) for full attribution.
 
 ---
 
