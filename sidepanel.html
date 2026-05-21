@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Image2 Promptick</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="app">
+  <!-- Header -->
+  <div id="header">
+    <h1>🎨 Image2 Promptick</h1>
+    <div class="header-actions">
+      <span class="badge" id="count-badge">207 模板</span>
+      <button id="btn-settings" class="icon-btn" title="LLM 设置">⚙️</button>
+    </div>
+  </div>
+
+  <!-- Search + Filter -->
+  <div id="filter-bar">
+    <input type="text" id="search" placeholder="搜索模板...">
+    <select id="category-filter"><option value="">全部分类</option></select>
+  </div>
+
+  <!-- Template List -->
+  <div id="template-list"></div>
+
+  <!-- Editor View -->
+  <div id="editor-view" class="hidden">
+    <div id="editor-header">
+      <button id="btn-back" class="icon-btn">← 返回</button>
+      <span id="editor-title">模板</span>
+    </div>
+
+    <!-- Preview header + button -->
+    <div id="preview-header" style="display:flex;align-items:center;gap:6px;margin-bottom:4px">
+      <span style="font-size:12px;color:#8b949e">参考图</span>
+      <button id="btn-view-image" class="small-btn" style="display:none">📷 查看完整图</button>
+    </div>
+    <div id="preview-area">
+      <img id="preview-img" src="" alt="preview">
+    </div>
+
+    <!-- English -->
+    <div class="editor-panel">
+      <div class="panel-header">
+        <span class="panel-label">EN 英文</span>
+        <button class="copy-btn" data-target="en">📋 复制</button>
+      </div>
+      <textarea id="en-input" spellcheck="false"></textarea>
+    </div>
+
+    <div class="trans-status">
+      <span id="trans-status-text">就绪</span>
+      <button id="btn-translate" class="small-btn">🌐 翻译为中文</button>
+    </div>
+
+    <!-- Chinese -->
+    <div class="editor-panel">
+      <div class="panel-header">
+        <span class="panel-label">CN 中文</span>
+        <button class="copy-btn" data-target="zh">📋 复制</button>
+      </div>
+      <textarea id="zh-input" spellcheck="false"></textarea>
+    </div>
+
+    <div class="sync-hint">💡 修改中文后点击「同步英文」可回写</div>
+    <button id="btn-sync" class="small-btn" style="width:100%;margin-bottom:8px">🔄 同步英文</button>
+  </div>
+</div>
+
+<!-- Settings Modal -->
+<div id="settings-modal" class="hidden">
+  <div class="modal-overlay"></div>
+  <div class="modal-content">
+    <h2>LLM 设置</h2>
+    <label>API 地址</label>
+    <input type="text" id="s-api-base" placeholder="https://api.openai.com/v1">
+    <label>API Key</label>
+    <input type="password" id="s-api-key" placeholder="sk-...">
+    <label>模型</label>
+    <input type="text" id="s-model" placeholder="gpt-4o">
+    <div class="modal-actions">
+      <button id="btn-save-settings" class="primary-btn">保存</button>
+      <button id="btn-close-settings">取消</button>
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox for full image -->
+<div id="lightbox" class="hidden" style="position:fixed;inset:0;z-index:200;display:flex;align-items:center;justify-content:center">
+  <div style="position:absolute;inset:0;background:rgba(0,0,0,0.7)"></div>
+  <img id="lightbox-img" src="" style="position:relative;z-index:201;max-width:92%;max-height:88%;border-radius:8px;border:1px solid #30363d;box-shadow:0 8px 32px rgba(0,0,0,0.5)" onclick="event.stopPropagation()">
+</div>
+
+<script src="templates.js"></script>
+<script src="sidepanel.js"></script>
+</body>
+</html>

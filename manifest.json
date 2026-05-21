@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Image2 Promptick",
+  "version": "1.0",
+  "description": "207 个图片提示词模板 + 中英翻译",
+  "permissions": [
+    "sidePanel",
+    "storage",
+    "clipboardWrite"
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Image2 Promptick"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "host_permissions": ["<all_urls>"]
+}
