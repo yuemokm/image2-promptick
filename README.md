@@ -1,157 +1,261 @@
-<p align="center">
-  <img src="icon.png" width="80" alt="Image2 Promptick logo">
+<div align="center">
+
+<h1>Image2 Promptick</h1>
+
+<p>A Chrome sidebar extension featuring <strong>207 curated AI image prompt templates</strong> with a bilingual <strong>EN/CN translation editor</strong>.</p>
+
+<p>
+  <b>English</b> | <a href="README.zh-CN.md">中文</a>
 </p>
 
-<h1 align="center">Image2 Promptick</h1>
-
-<p align="center">
-  <strong>Chrome 侧边栏 · 207 个 AI 图片提示词模板 · 中英双向翻译</strong>
+<p>
+  <img src="https://img.shields.io/github/license/yuemokm/image2-promptick" alt="License">
+  <img src="https://img.shields.io/badge/Chrome%20Extension-Manifest%20V3-blue?logo=googlechrome" alt="Chrome V3">
+  <img src="https://img.shields.io/badge/LLM-OpenAI%20Compatible-green" alt="LLM">
 </p>
 
-<p align="center">
-  <em>Chrome Sidebar · 207 AI Image Prompt Templates · Bilingual EN/CN Editor</em>
-</p>
+<img src="icon.png" width="80" alt="logo">
 
-<p align="center">
-  <a href="https://github.com/yuemokm/image2-promptick/blob/main/LICENSE"><img src="https://img.shields.io/github/license/yuemokm/image2-promptick" alt="License"></a>
-  <a href="https://github.com/yuemokm/image2-promptick"><img src="https://img.shields.io/github/stars/yuemokm/image2-promptick?style=social" alt="Stars"></a>
-  <a href="https://chrome.google.com/webstore"><img src="https://img.shields.io/badge/Chrome%20Extension-Manifest%20V3-blue" alt="Chrome Extension"></a>
-</p>
+</div>
 
 ---
 
-## 📋 简介 / Overview
+## ✨ Features
 
-**Image2 Promptick** 是一个 Chrome 侧边栏插件，将 **207 个高质量的 AI 图片生成提示词模板** 与 **中英双语翻译编辑工具** 整合在一起，让你在浏览网页时随时随地方便地浏览、翻译、编辑提示词。
-
-*A Chrome sidebar extension that brings together 207 curated AI image generation prompt templates with a bilingual (EN/CN) translation editor — browse, translate, and edit prompts without leaving your current tab.*
-
----
-
-## ✨ 功能 / Features
-
-| 中文 | English |
-|------|---------|
-| 🖼️ **207 个精选模板** — 涵盖 30+ 分类，每张带参考缩略图 | 🖼️ **207 Curated Templates** — 30+ categories with preview thumbnails |
-| 🔍 **分类筛选 / 关键词搜索** — 快速定位需要的风格 | 🔍 **Filter by category & keyword search** — find what you need instantly |
-| 🌐 **一键翻译** — 调用 LLM 将英文提示词译成中文 | 🌐 **One-click Translation** — EN → CN via your own LLM |
-| 🔄 **双向同步** — 修改中文可同步回写英文，反之亦然 | 🔄 **Bidirectional Sync** — edit CN, sync to EN and vice versa |
-| 📋 **两侧复制按钮** — 中英文独立复制，不遗漏 | 📋 **Copy buttons** — copy EN or CN independently |
-| 📷 **参考图查看** — 大图灯箱预览，不跳转新窗口 | 📷 **Full-size image viewer** — lightbox overlay, no tab switch |
-| ⚙️ **自定义 LLM** — 兼容 OpenAI 格式，BYOK | ⚙️ **Bring Your Own Key** — any OpenAI-compatible API |
+| | |
+|---|---|
+| 🖼️ **207 Curated Templates** | 30+ categories — anime, gaming, photography, UI/UX, fashion, infographics, and more |
+| 🔍 **Search & Filter** | Find templates by keyword or category instantly |
+| 🌐 **One-click Translation** | Translate any English prompt to Chinese via your own LLM |
+| 🔄 **Bidirectional Sync** | Edit the Chinese → LLM rewrites the English to match |
+| 📋 **Independent Copy** | Copy EN or CN separately — both sides have copy buttons |
+| 📷 **Full-size Image Viewer** | Lightbox overlay for reference images |
+| ⚙️ **BYOK (Bring Your Own Key)** | Any OpenAI-compatible API — GPT, DeepSeek, volcengine, etc. |
 
 ---
 
-## 📸 截图 / Screenshots
+## 🚀 Installation
 
-> *待补充 — 欢迎提交 PR 添加截图*
->
-> *TODO: Add screenshots — PRs welcome*
+1. Open Chrome and go to `chrome://extensions`
+2. Enable **Developer mode** (top-right toggle)
+3. Click **Load unpacked** and select this repository's folder
+4. Click the extension icon in the toolbar to open the sidebar
+5. Go to ⚙️ Settings to configure your LLM API
 
 ---
 
-## 🚀 安装 / Installation
+## 🎮 Usage
 
-### 方式一：手动加载 / Load Unpacked
+**Browse & Explore**
+- Scroll through the template gallery with thumbnails
+- Use the search bar or category filter to narrow down
 
-1. 打开 Chrome，进入 `chrome://extensions`
-2. 开启右上角 **开发者模式** / *Developer mode*
-3. 点击 **加载已解压的扩展程序** / *Load unpacked*
-4. 选择本项目文件夹
-5. 点击工具栏插件图标打开侧边栏
-6. 进入 ⚙️ 设置 LLM API 后即可使用
+**Edit & Translate**
+1. Click any template card to open the editor
+2. Click **🌐 Translate to Chinese** to translate via LLM
+3. Modify the Chinese text
+4. Click **🔄 Sync English** — the LLM rewrites the English to match your edits
+5. Click **📋 Copy** to copy either side
 
-### 方式二：从源码构建 / Build from source
+**Image Viewer**
+- Click **📷 View Full Image** at the top of the editor for a lightbox preview
+- Click the dark overlay to close
 
-```bash
-git clone https://github.com/yuemokm/image2-promptick.git
-# 然后按方式一的步骤加载
-# Then follow the manual load steps above
+---
+
+## 🖼️ Template Gallery
+
+Here's a preview of what's inside the extension. Click any image to view full size.
+
+<details open>
+<summary><strong>🎌 Anime & Manga</strong></summary>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/anime-manga/anime-expression-grid.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/anime-manga/anime-expression-grid.png" width="100%" alt="16-panel anime expression grid"></a>
+      <sub><strong>16-panel anime expression grid</strong> · <code>"anime"</code> <code>"character design"</code></sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/gaming/anime-open-world.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/gaming/anime-open-world.png" width="100%" alt="Anime open-world adventure HUD"></a>
+      <sub><strong>Anime open-world adventure HUD</strong> · <code>"gaming"</code> <code>"UI"</code></sub>
+    </td>
+  </tr>
+</table>
+</details>
+
+<details>
+<summary><strong>🎬 Cinematic & Gaming</strong></summary>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/cinematic-animation/noir-detective.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/cinematic-animation/noir-detective.png" width="100%" alt="1940s film-noir still"></a>
+      <sub><strong>1940s film-noir detective still</strong> · <code>"cinematic"</code> <code>"noir"</code></sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-anime-fighting-game-captain-ryuuga-vs-kaze-renshin.jpg"><img src="https://raw.githubusercontent.com/nexu-io/open-design/main/assets/prompt-templates/image/game-screenshot-anime-fighting-game-captain-ryuuga-vs-kaze-renshin.jpg" width="100%" alt="Anime fighting game screenshot"></a>
+      <sub><strong>Anime fighting game screenshot</strong> · <code>"game"</code> <code>"action"</code></sub>
+    </td>
+  </tr>
+</table>
+</details>
+
+<details>
+<summary><strong>👗 Fashion & 📷 Photography</strong></summary>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/fashion-editorial/haute-couture-sculptural-runway.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/fashion-editorial/haute-couture-sculptural-runway.png" width="100%" alt="Avant-garde haute couture"></a>
+      <sub><strong>Avant-garde Haute Couture Runway</strong> · <code>"fashion"</code></sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/photography/panorama-jungle.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/photography/panorama-jungle.png" width="100%" alt="360° jungle panorama"></a>
+      <sub><strong>360° equirectangular jungle panorama</strong> · <code>"photography"</code></sub>
+    </td>
+  </tr>
+</table>
+</details>
+
+<details>
+<summary><strong>🔬 Research &  Scientific</strong></summary>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/research-paper-figures/ablation-bars.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/research-paper-figures/ablation-bars.png" width="100%" alt="Ablation bar chart"></a>
+      <sub><strong>Ablation bar chart with error bars</strong> · <code>"research"</code> <code>"charts"</code></sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/scientific-educational/human-anatomy-muscular-poster.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/scientific-educational/human-anatomy-muscular-poster.png" width="100%" alt="Anatomy poster"></a>
+      <sub><strong>Human anatomy muscular system poster</strong> · <code>"scientific"</code> <code>"educational"</code></sub>
+    </td>
+  </tr>
+</table>
+</details>
+
+<details>
+<summary><strong>🏛️ Architecture & Technical</strong></summary>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/architecture-interior/biophilic-biotech-lab-render.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/architecture-interior/biophilic-biotech-lab-render.png" width="100%" alt="Biophilic biotech lab"></a>
+      <sub><strong>Biophilic Biotech Lab render</strong> · <code>"architecture"</code></sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/technical-illustration/car-powertrain-transparent-cutaway.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/technical-illustration/car-powertrain-transparent-cutaway.png" width="100%" alt="Car powertrain cutaway"></a>
+      <sub><strong>Car Powertrain Transparent Cutaway</strong> · <code>"technical"</code> <code>"illustration"</code></sub>
+    </td>
+  </tr>
+</table>
+</details>
+
+<details>
+<summary><strong>📦 Product & 📋 Infographics</strong></summary>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/product-food/product-dieline-box.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/product-food/product-dieline-box.png" width="100%" alt="3D product box from dieline"></a>
+      <sub><strong>3D product box from dieline</strong> · <code>"product"</code> <code>"packaging"</code></sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/infographics-field-guides/camera-styles-infographic.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/infographics-field-guides/camera-styles-infographic.png" width="100%" alt="Camera styles infographic"></a>
+      <sub><strong>Camera styles reference infographic</strong> · <code>"infographic"</code></sub>
+    </td>
+  </tr>
+</table>
+</details>
+
+<details>
+<summary><strong>📝 Typography & UI/UX</strong></summary>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/typography-posters/pulp-scifi-cover.png"><img src="https://raw.githubusercontent.com/wuyoscar/GPT-Image2-Skill/main/docs/typography-posters/pulp-scifi-cover.png" width="100%" alt="Pulp sci-fi cover"></a>
+      <sub><strong>1950s pulp sci-fi magazine cover</strong> · <code>"typography"</code> <code>"poster"</code></sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="icon.png" width="100%" alt="200+ more templates inside the extension">
+      <sub><strong>...and 200+ more templates</strong> <br> Install the extension to browse the full collection</sub>
+    </td>
+  </tr>
+</table>
+</details>
+
+> [!NOTE]
+> All template preview images above are hot-linked from their original open-source repositories. Full prompt texts are available inside the Chrome extension.
+
+---
+
+## 🗂️ Full Category List
+
+```
+🎌 Anime & Manga         🏛️ Architecture           💄 Beauty & Lifestyle
+🏷️ Brand & Identity      👤 Character Design        🎬 Cinematic & Animation
+🎥 Film References       📊 Data Visualization      ✂️ Edit Endpoint
+🎪 Events & Experience   👗 Fashion Editorial       🎨 Fine Art Painting
+🎮 Gaming                🖼️ Illustration           📋 Infographics
+🖌️ Ink & Chinese         📐 Isometric               📚 OpenAI Cookbook
+📷 Photography           👾 Pixel Art               🍔 Product & Food
+🔬 Research Paper Figs   🌃 Retro & Cyberpunk       🔭 Scientific & Educational
+💻 Screen Photography    💉 Tattoo Design            ⚙️ Technical Illustration
+🔤 Typography & Posters  📱 UI/UX Mockups           🖍️ Watercolor
+🏛️ Game UI               📦 App / Web Design
 ```
 
 ---
 
-## 🔧 使用指南 / Usage
-
-### 首次使用 / First Use
-
-1. 点击 Chrome 工具栏的拼图图标 🧩 → 找到 Image2 Promptick → 固定到工具栏
-2. 点击图标，右侧打开侧边栏
-3. 点击右上角 ⚙️ **设置 LLM**
-4. 填入 API 地址、Key 和模型名，保存
-
-### 浏览模板 / Browse Templates
-
-- 侧边栏列表浏览所有模板卡片，每张带缩略图、分类和标签
-- 使用顶部的搜索框和分类下拉筛选
-
-### 编辑翻译 / Edit & Translate
-
-1. 点击任意模板卡片进入编辑视图
-2. 点击 **🌐 翻译为中文** 调用 LLM 翻译
-3. 修改中文内容
-4. 点击 **🔄 同步英文** 让 LLM 根据新中文更新英文提示词
-5. 点击 **📋 复制** 复制任意一侧
-
-### 查看参考图 / View Reference Image
-
-- 编辑视图顶部点击 **📷 查看完整图** 打开灯箱大图
-- 点击大图旁边的暗色区域关闭
-
----
-
-## 🗂️ 模板分类 / Categories
-
-```
-🎌 Anime & Manga        🏛️ Architecture        💄 Beauty & Lifestyle
-🏷️ Brand & Identity     👤 Character Design     🎬 Cinematic
-🎥 Film References      📊 Data Visualization   👗 Fashion Editorial
-🎨 Fine Art             🎮 Gaming               🖼️ Illustration
-📋 Infographics         🖌️ Ink & Chinese        📐 Isometric
-📚 OpenAI Cookbook      📷 Photography          👾 Pixel Art
-🍔 Product & Food       🔬 Research Figures     🌃 Retro & Cyberpunk
-🔭 Scientific           💻 Screen Photo         💉 Tattoo Design
-⚙️ Technical Illustration 🔤 Typography         📱 UI/UX
-... and more
-```
-
----
-
-## 🛠️ 技术栈 / Tech Stack
+## 🛠️ Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
-| **Platform** | Chrome Extension (Manifest V3) |
-| **Sidebar** | `chrome.sidePanel` API |
-| **UI** | Vanilla HTML + CSS (dark theme) |
-| **LLM** | OpenAI-compatible API via `fetch` |
-| **Storage** | `chrome.storage.local` |
-| **Template Data** | Aggregated from 207 JSON sources |
+| Platform | Chrome Extension — Manifest V3 |
+| Sidebar | `chrome.sidePanel` API |
+| UI | Vanilla HTML + CSS (dark theme) |
+| LLM | OpenAI-compatible API via `fetch` |
+| Storage | `chrome.storage.local` |
+| Data | 207 templates aggregated from open-source galleries |
 
 ---
 
-## 📄 致谢 / Acknowledgments
+## 📄 File Structure
 
-本项目的提示词模板来源于以下开源项目：
-
-*The prompt templates in this project are sourced from:*
-
-- **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — 开源设计工具 (Apache 2.0)
-- **[wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill)** — GPT Image 2 提示词画廊 (MIT)
-
-预览图片通过热链接引用自上述项目原始仓库，未在本地托管。
-*Preview images are hot-linked from the original repositories above.*
-
-详情请见 [NOTICE.md](./NOTICE.md)。
+```
+├── manifest.json       # Extension manifest (V3)
+├── background.js       # Sidebar activation logic
+├── sidepanel.html      # Main UI
+├── styles.css          # Dark-theme styles
+├── sidepanel.js        # Core logic (translate, sync, copy, lightbox)
+├── templates.js        # 207 aggregated templates
+├── icon.png            # Extension icon
+├── NOTICE.md           # Attribution & license notices
+├── LICENSE             # MIT
+└── README.md           # This file
+```
 
 ---
 
-## 📝 许可证 / License
+## 🙏 Acknowledgments
 
-[MIT](./LICENSE)
+The prompt templates in this project are sourced from the following open-source projects:
+
+- **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — 46 original prompt templates (Apache 2.0)
+- **[wuyoscar/GPT-Image2-Skill](https://github.com/wuyoscar/GPT-Image2-Skill)** — 162 curated prompt templates (MIT)
+
+Preview images are hot-linked from the original repositories. See [NOTICE.md](./NOTICE.md) for full attribution.
+
+---
+
+## 📝 License
+
+[MIT](./LICENSE) © 2026
 
 ---
 
 <p align="center">
-  Made with ❤️ for the AI art community
+  <sub>Made for the AI art community · <a href="https://github.com/yuemokm/image2-promptick/issues">Feedback & Contributions welcome</a></sub>
 </p>
